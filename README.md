@@ -1,4 +1,4 @@
-# **Photoark App**
+# **Photoark**
 
 A Fully functional social media app written in flutter and dart using node.js and Postgres SQL as backend.
 [Backend Repository](https://github.com/melavo/photoark-nodejs-postgreSQL)
