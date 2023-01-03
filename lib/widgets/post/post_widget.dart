@@ -187,7 +187,7 @@ class _PostWidgetState extends State<PostWidget> {
                                                         title:
                                                             'Check out this post by ${state.post.name}',
                                                         url:
-                                                            'https://[domain]/socialapp?post_user_id=${state.post.userId}&post_id=${state.post.postId}&type=post',
+                                                            'https://photoark.melavo.com/photoarkapp?post_user_id=${state.post.userId}&post_id=${state.post.postId}&type=post',
                                                       );
                                                       Clipboard.setData(
                                                           ClipboardData(
@@ -316,7 +316,7 @@ class _PostWidgetState extends State<PostWidget> {
                                       title:
                                           'Check out this post by ${state.post.name}',
                                       url:
-                                          'https://[domain]/socialapp?post_user_id=${state.post.userId}&post_id=${state.post.postId}&type=post',
+                                          'https://photoark.melavo.com/photoarkapp?post_user_id=${state.post.userId}&post_id=${state.post.postId}&type=post',
                                     );
                                     Share.share(
                                         'Check out this post $url on Photoark app',

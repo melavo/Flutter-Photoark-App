@@ -164,7 +164,7 @@ class RowInfo extends StatelessWidget {
                       image: state.currentProfile.avatarUrl,
                       title: state.currentProfile.name,
                       url:
-                          'https://[domain]/socialapp?userId=${state.currentProfileId}&type=up',
+                          'https://photoark.melavo.com/photoarkapp?userId=${state.currentProfileId}&type=up',
                     );
                     Share.share('Check out this profile on Photoark app $url',
                         subject:
